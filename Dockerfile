@@ -1,4 +1,4 @@
 FROM openjdk:11
-EXPOSE 8080
-ADD target/docker-jenkin-integration-sample.jar docker-jenkin-integration-sample.jar
-ENTRYPOINT ["java","-jar","/docker-jenkin-integration-sample.jar"] 
+EXPOSE 3000
+ADD target/jenkin-docker-integration-sample.jar jenkin-docker-integration-sample.jar
+ENTRYPOINT ["java","-jar","/jenkin-docker-integration-sample.jar"]

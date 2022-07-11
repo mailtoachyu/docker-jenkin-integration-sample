@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.achyudemo</groupId>
-	<artifactId>docker-jenkin-integration-sample</artifactId>
+	<artifactId>jenkin-docker-integration-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>achyudemo</name>
 	<description>Demo project for Spring Boot</description>
@@ -40,7 +40,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>docker-jenkin-integration-sample</finalName>
+	<finalName>jenkin-docker-integration-sample</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
