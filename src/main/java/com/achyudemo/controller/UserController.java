@@ -10,7 +10,7 @@ public class UserController {
 	
 	@GetMapping("/login")
 	public String login() {
-		return "welcome to docker App. learn and do achyu and rina";
+		return "welcome to docker App. learn and do achyu and rina.";
 	}
 
 }
